@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.Offbulb{
+    width: 590px;
+    height: 550px;
+}
+.onbulb{
+    width: auto;
+    height: auto;
+}
+.container{
+display: flex;
+/* flex-direction: row-reverse; */
+justify-content: center;
+align-items: center;
+}
+.Btn{
+    background-color: yellowgreen;
+    padding: 5px 7px 5px 6px ;
+    border: none;
+    border-radius: 5px;
+}
